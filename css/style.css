@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background: #ee9ca7;
+  background: #e298ef;
 }
 
 #cake {
@@ -146,6 +146,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-style: italic;
+  font-weight:bold;
   text-align: center;
 }
 .text h1 {

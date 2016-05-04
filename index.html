@@ -186,7 +186,7 @@
   <script src='js/jquery.js'></script>
 
   <script src="js/index.js"></script>
-	<div style="position: absolute;width:100%;top:500px;text-align: center;background:#fff;font-size:large;">
+	<div id="maindiv" style="position: absolute;width:100%;top:500px;text-align: center;background:#fff;font-size:large;">
 		<br/><p>生日快乐，伊玲！希望从今往后的每个生日我都能陪伴在你身边，跟你说这句话</p>
     <p style="margin:20px;">我们一定会很幸福，我们要坚强的走下去，我会向所有关心我的人证明，和你在一起真的很幸福，大家也都会祝福我们的</p>
     <img src="./res/friend1.png" /><br/><br/>
@@ -199,7 +199,14 @@
     <img src="./res/butterfly.jpg" />By 爱你的希望<br/><br/>
 	</div>
   
-  
+  <script type="text/javascript">
+   var maindiv = document.getElementById("maindiv");
+        if(new Date().getTime()>=new Date(2016,5,5).getTime()){
+            maindiv.style.display="block";
+        }else{
+            maindiv.style.display="none";
+        }
+    </script>
 
 </body>
 
